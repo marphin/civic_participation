@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'theme.dart';
-import 'home.dart';
+import 'package:civic_participation/theme.dart';
+import 'package:civic_participation/home.dart';
 
 void main() {
   runApp(MyApp());
