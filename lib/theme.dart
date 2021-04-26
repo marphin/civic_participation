@@ -13,10 +13,10 @@ ThemeData _buildDefaultTheme() {
 
 TextTheme _buildDefaultTextTheme(TextTheme base) {
   return base.copyWith(
-    headline: base.headline.copyWith(
+    headline5: base.headline5.copyWith(
       fontWeight: FontWeight.w500,
     ),
-    title: base.title.copyWith(
+    headline6: base.headline6.copyWith(
       color: Colors.black,
       fontWeight: FontWeight.w700,
       fontSize: 30.0,
@@ -25,7 +25,7 @@ TextTheme _buildDefaultTextTheme(TextTheme base) {
       fontWeight: FontWeight.w400,
       fontSize: 14.0,
     ),
-    body2: base.body2.copyWith(
+    bodyText1: base.bodyText1.copyWith(
       fontWeight: FontWeight.w500,
       fontSize: 16.0,
     ),
