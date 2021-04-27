@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: 0, // this will be set when a new tab is tapped
         backgroundColor: defaultTheme.primaryColor,
-        selectedItemColor: Color.fromRGBO(255, 255, 255, 1.0),
+        selectedItemColor: Color.fromRGBO(255, 255, 255, 1.0),//
         type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
