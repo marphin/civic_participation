@@ -1,3 +1,4 @@
+import 'package:civic_participation/theme.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -83,6 +84,8 @@ class _MyHomePageState extends State<MyHomePage> {
       ), // This trailing comma makes auto-formatting nicer for build methods.
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: 0, // this will be set when a new tab is tapped
+        backgroundColor: defaultTheme.primaryColor,
+        selectedItemColor: Color.fromRGBO(255, 255, 255, 1.0),
         type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
